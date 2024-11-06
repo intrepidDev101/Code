@@ -4,7 +4,7 @@ void main() {
   // Integer
   print("Enter an integer:");
   int? number = int.tryParse(stdin.readLineSync()!);
-  print("Integer: $number");
+  stdout.write("Integer: $number");
 
   // Double
   print("Enter a double:");
